@@ -5,7 +5,7 @@ The two devices basically end up in a race condition for ttyUSB0, and if the GPS
 
 This tests for GPS on ttyUSB0, and if it doesn't find it there, it will reset the USB bus on the Raspberry Pi 3, and almost always lands on the right configuration after one reset.
 
-Only tested.  on a Raspberry Pi 3 with a USB BU-353 GPS unit.
+Only tested on a Raspberry Pi 3 with a USB BU-353 GPS unit.
 
 Directions:
 
